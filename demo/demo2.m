@@ -9,11 +9,10 @@ load data4.mat
 N = 120000;
 %% Setting sparsity
 sparsity = 0.125;
-
 measure = randperm(N, sparsity.*N);
 signal = data4(1:120000);
 S0 = signal;
-
+636666
 N = size(signal,1);
 
 %% Generating undersampled signal
